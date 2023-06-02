@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@href='/cart?ref_=sw_gtc']"
+}

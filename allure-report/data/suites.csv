@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"unknown","Fri Jun 02 15:40:53 EAT 2023","Fri Jun 02 15:41:56 EAT 2023","62735","","Place Order journey","","","","should be able to  search product and place an order",""

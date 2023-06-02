@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[normalize-space()='Kushuvi 4XL Bean Bag with Footrest with Cushion Ready to Use with Beans (Faux Leather) (Navy Blue - XXXXL)']"
+}
