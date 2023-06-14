@@ -13,20 +13,21 @@ module.exports = new class ProductDescriptionPage{
     }
 
     async addProductToCart(parentWindowId){
-        let allWindowHandles = await browser.getWindowHandles();
-        for(let i = 0; i< allWindowHandles.length;i++){
-            if(allWindowHandles[i]!= parentWindowId){
-                await browser.switchToWindow(allWindowHandles[i]);
-                break;
+        
+        var allWindowHandles = await browser.getWindowHandles();
+            for(var i = 0; i<allWindowHandles.length;i++){
+                 if(allWindowHandles[i] != parentWindowId){
+                     await browser.switchToWindow(allWindowHandles[i]);
+                     break;
+                 }   
             }
+            await browser.pause(1000);
+            await this.addCartButton.click();
+            
+     
         }
 
-        let price = await this.productPrice.getText();
-        await this.addCartButton.click();
-        return price;
-    }
-
     async navigateToCart(){
-        (await this.goToCartButton).click();
+        await this.goToCartButton.click();
     }
 }

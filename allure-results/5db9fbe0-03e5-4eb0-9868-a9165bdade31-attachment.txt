@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "span[id='sc-subtotal-amount-buybox'] span[class='a-size-medium a-color-base sc-price sc-white-space-nowrap']"
-}
